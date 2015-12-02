@@ -4,11 +4,12 @@
 \name{M4comp}
 \alias{M4comp}
 \alias{M4comp-package}
-\title{The M4comp  package provides three categories of important functions:
-foo, bar and baz.}
+\title{Data from the M4 time series forecasting competition}
+\source{
+\url{http://forecasters.org/resources/time-series-data/}
+}
 \description{
-The M4comp  package provides three categories of important functions:
-foo, bar and baz.
+The M4comp  package provides the 10.000 time series from the M4 time series forecasting competition.
 }
 \section{Foo functions}{
 
