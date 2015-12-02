@@ -1,0 +1,13 @@
+Package: M4comp
+Title: Data from the M4 competition for time series forecasting
+Version: 0.0.0.9000
+Authors@R: person("Souhaib", "BenTaieb", email = "souhaib.bentaieb@monash.edu", role = c("aut", "cre"))
+Description: The 10.000 time series from the M4 competition
+Depends: R (>= 3.2.1)
+License: What license is it under?
+LazyData: true
+Imports: ggplot2(>= 1.0.1)
+URL: https://github.com/bsouhaib/M4comp
+BugReports: https://github.com/bsouhaib/M4comp/issues
+License: GPL-2
+LazyData: true
