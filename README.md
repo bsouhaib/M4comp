@@ -18,7 +18,6 @@ The **stable** version on CRAN is coming soon.
 library(M4comp)
 
 print(M4)
-
 plot(M4[[1]])
 print(M4[[1]])
 
