@@ -6,7 +6,6 @@ Description: The 10.000 time series from the M4 competition
 Depends: R (>= 3.2.1)
 License: What license is it under?
 LazyData: true
-Imports: ggplot2(>= 1.0.1)
 URL: https://github.com/bsouhaib/M4comp
 BugReports: https://github.com/bsouhaib/M4comp/issues
 License: GPL-2
