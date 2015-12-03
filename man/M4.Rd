@@ -26,7 +26,7 @@ diamonds.
 }
 \examples{
 M4
-plot(M4)
+plot(M4[[1]])
 }
 \keyword{datasets}
 
