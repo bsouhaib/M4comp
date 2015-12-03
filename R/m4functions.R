@@ -24,7 +24,7 @@ plot.M4ts <- function(x, xlim = c(tsp(x$past)[1], tsp(x$future)[2]), ylim = rang
 }
 
 #' @export
-print.M4ts <- function(x){
+print.M4ts <- function(x, ...){
 	cat(paste("ID    : ", x$id,     "\n"))
 	cat(paste("Type  : ", x$tyoe,   "\n"))
 	cat(paste("Period: ", x$period, "\n"))
@@ -37,7 +37,7 @@ print.M4ts <- function(x){
 }
 
 #' @export
-print.M4data <- function(x){
+print.M4data <- function(x, ...){
 	allperiod <- factor(sapply(x, "[[", "period"), levels = c("YEARLY", "BIANNUALLY", "QUARTERLY", "MONTHLY", "WEEKLY", "DAILY"))
 	alltypes  <- factor(sapply(x, "[[", "type")  , levels = c("BUSINESS-INDUSTRY", "CLIMATE", "DEMOGRAPHICS", "ECONOMICS", "FINANCE", "INTERNET-TELECOM", "INVENTORY"))
 	print(table(alltypes, allperiod, dnn = c("Type", "Period")))
