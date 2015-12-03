@@ -17,7 +17,7 @@
 #'
 #'@examples
 #' M4
-#' plot(M4)
+#' plot(M4[[1]])
 "M4"
 
 
