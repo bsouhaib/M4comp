@@ -26,13 +26,13 @@ plot.M4ts <- function(x, xlim = c(tsp(x$past)[1], tsp(x$future)[2]), ylim = rang
 #' @export
 print.M4ts <- function(x, ...){
 	cat(paste("ID    : ", x$id,     "\n"))
-	cat(paste("Type  : ", x$tyoe,   "\n"))
+	cat(paste("Type  : ", x$type,   "\n"))
 	cat(paste("Period: ", x$period, "\n"))
 	cat(paste("Units: ", x$units,   "\n\n"))
 	
-	cat("HISTORICAL observations: \n\n")
+	cat("HISTORICAL: \n")
     print(x$past)
-    cat("FUTURE observations:     \n")
+    cat("\nFUTURE:     \n")
     print(x$future)
 }
 

@@ -1,7 +1,7 @@
 Package: M4comp
 Title: Data from the M4 time series forecasting competition
 Description: The 10.000 time series from the M4 time series forecasting competition, including print and plot functions.
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Souhaib", "BenTaieb", email = "souhaib.bentaieb@monash.edu", role = c("aut", "cre"))
 Depends: R (>= 3.2.1)
 License: GPL-2
