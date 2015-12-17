@@ -8,5 +8,7 @@
 #' @source \url{http://forecasters.org/resources/time-series-data/}
 #' @docType package
 #' @name M4comp
+#' @importFrom graphics lines plot title
+#' @importFrom stats frequency ts tsp
 NULL
 #> NULL
