@@ -1,6 +1,12 @@
 [![Pending Pull-Requests](http://githubbadges.herokuapp.com/bsouhaib/M4comp/pulls.svg?style=flat)](https://github.com/bsouhaib/M4comp/pulls)
 
 # Installation
+You can install the **stable** version on 
+[R CRAN](http://cran.r-project.org/package=M4comp).
+
+```s
+install.packages('M4comp', dependencies = TRUE)
+```
 
 You can install the **development** version from [Github](https://github.com/bsouhaib/M4comp)
 
