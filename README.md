@@ -16,8 +16,6 @@ library(devtools)
 install_github("bsouhaib/M4comp") 
 ```
 
-The **stable** version on CRAN is coming soon.
-
 # Usage
 
 ```s
