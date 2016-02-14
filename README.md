@@ -1,3 +1,6 @@
+# M4comp
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/M4comp)](http://cran.r-project.org/package=M4comp)
+[![Downloads](http://cranlogs.r-pkg.org/badges/M4comp)](http://cran.rstudio.com/package=M4comp)
 [![Pending Pull-Requests](http://githubbadges.herokuapp.com/bsouhaib/M4comp/pulls.svg?style=flat)](https://github.com/bsouhaib/M4comp/pulls)
 
 # Installation
